@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   new-api:
-    image: 'calciumion/new-api:latest'
+    image: 'calciumion/new-api:v0.7.2.0'
     restart: always
     command: '--log-dir /app/logs'
     ports:
